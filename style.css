@@ -721,7 +721,7 @@ body{
     color:#696969;
     font-size:18px;
     padding-top:30px;
-    padding-left:620px;
+    padding-left:700px;
     font-style:italic;
 }
 .footer{
@@ -904,7 +904,7 @@ form input[type=text]{
     overflow:hidden;
     text-decoration: none; 
     /*font-family:Signika-Light, sans-serif;*/
-    left:23%;
+    left:250px;
 }
 
 .solutions{
@@ -923,7 +923,7 @@ form input[type=text]{
     display:inline-block;
     color:white;
     /*font-family:Signika-Light, sans-serif;*/
-    margin-left:-65px;
+    margin-left:-60px;
     font-size:15px;
     text-decoration: none;      
 }
@@ -933,7 +933,7 @@ form input[type=text]{
     display:inline-block;
     color:white;
     /*font-family:Signika-Light, sans-serif;*/
-    margin-left:-110px;
+    margin-left:-90px;
     font-size:15px;
     text-decoration: none;   
 }
@@ -943,7 +943,7 @@ form input[type=text]{
     display:inline-block;
     color:white;
     /*font-family:Signika-Light, sans-serif;*/
-    margin-left:-105px;
+    margin-left:-93px;
     font-size:15px;
     text-decoration: none;       
 }
@@ -954,6 +954,8 @@ form input[type=text]{
     color:white;
     /*font-family:Signika-Light, sans-serif;*/
     margin-left:15px;
+    left:3px;
+    
     font-size:15px;
     text-decoration: none;       
 }
@@ -963,7 +965,7 @@ form input[type=text]{
     display:inline-block;
     color:white;
     /*font-family:Signika-Light, sans-serif;*/
-    margin-left:-76px;
+    margin-left:-65px;
     font-size:15px;
     text-decoration: none;       
 }
@@ -973,7 +975,7 @@ form input[type=text]{
     display:inline-block;
     color:white;
     /*font-family:Signika-Light, sans-serif;*/
-    margin-left:-79px;
+    margin-left:-70px;
     font-size:15px;
     text-decoration: none;
 }
@@ -993,7 +995,7 @@ form input[type=text]{
     display:inline-block;
     color:white;
     /*font-family:Signika-Light, sans-serif;*/
-    margin-left:-223px;
+    margin-left:-200px;
     font-size:15px;
     text-decoration: none;
 }
@@ -1003,7 +1005,7 @@ form input[type=text]{
     display:inline-block;
     color:white;
     /*font-family:Signika-Light, sans-serif;*/
-    margin-left:-118px;
+    margin-left:-105px;
     font-size:15px;
     text-decoration: none;  
 }
@@ -1013,7 +1015,7 @@ form input[type=text]{
     display:inline-block;
     color:white;
     /*font-family:Signika-Light, sans-serif;*/
-    margin-left:-95px;
+    margin-left:-83px;
     font-size:15px;
     text-decoration: none;  
 }

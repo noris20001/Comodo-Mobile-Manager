@@ -9,7 +9,9 @@ and open the template in the editor.
         <title>Comodo Mobile Managment</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/mediastyle.css">
 
 
     </head>
@@ -23,9 +25,13 @@ and open the template in the editor.
                     <div class="logo">
                         <img src="image1/newlogo.jpeg">
                     </div>
+                   
                     <ul class="menu-top">
                         <li class="menutop__item">How It Works</li>
-                        <li class="menutop__item" >Solutions
+                        <li class="menutop__item1" >
+                            <span class='hide_solutions'>Solutions</span>
+                             <button id="menu_button" onclick='togglebutton()'></button>
+                            
                             <div class='menu_solutions'> 
                                 <div class='header_container'>
                                     <div class='menutop__header'>
@@ -100,6 +106,7 @@ and open the template in the editor.
                         <li class="menutop__item">Sale & Support</li>
                         <li class="menutop__item">Resources</li>
                         <li class="menutop__item">Community</li>
+                        
                     </ul>
 
                 </div>
@@ -112,7 +119,7 @@ and open the template in the editor.
 
                     <div class="name_line1">Comodo Mobile Device<p>Management</p></div>
                     <!--<div class="name_line2">Managment</div>-->
-                    <div class="name_line2">Award Winning Antivirus & Threat Containment for<p>Windows laptops, workstations and servers</p></div>
+                    <div class="name_line2">Award Winning Antivirus & Threat Containment for <p>Windows laptops, workstations and servers</p></div>
                     <!--<div class="name_line3">Windows laptops, workstations and servers</div>-->
                 </div>
             </div>
@@ -347,7 +354,13 @@ and open the template in the editor.
                 </div>
             </div>
         </div>
-
+        <script>
+            function togglebutton(){
+                var elem = document.getElementById("menu_button");
+                elem.classList.toggle("menusolutions");
+                
+            }
+            </script>
 
 
 

@@ -161,7 +161,7 @@ footer, header, hgroup, menu, nav, section {
     display:inline-block;
     height:230px;
     width:230px;
-     z-index:3;
+    z-index:3;
 }
 .block1_main{
     /*white-space:nowrap;*/
@@ -204,10 +204,10 @@ footer, header, hgroup, menu, nav, section {
     /*padding-left:25px;*/
     height:230px;
     width:230px;
-     z-index:3;
+    z-index:3;
 }
 .block2_main{
-  z-index:3;
+    z-index:3;
 }
 .block2_line{
     text-decoration:none;
@@ -218,23 +218,46 @@ footer, header, hgroup, menu, nav, section {
     font-size:13px;
     height:30px;
     text-align:left;
-     z-index:3;
+    z-index:3;
 }
 .block3_container{
     position:relative;
     display:inline-block;
-    
+
     /*top:-750px;*/
     padding-left:20px;
 
-    height:230px;
-    width:40px; 
-     z-index:3;
+    height:210px;
+    width:150px; 
+    z-index:3;
 }
 .pic{
+    /*position:relative;*/        
     display:block;
     height:60px;
-     z-index:3;
+    /*height:60px;*/
+    z-index:3;
+    /*padding-top:20px;*/
+    
+    
+    float:left;
+    
+
+
+}
+.pic1_text{
+    position:relative;
+    display:inline-block;
+    /*height:60px;*/
+    z-index:3;
+    text-decoration:none;
+    text-align:center;
+    color:#00BFFF;
+    font-size:15px;
+    height:50px;
+    top:-10px;
+    padding-left:5px;
+    /*float:left;*/
 }
 .block4_container{
     position:relative;
@@ -243,7 +266,7 @@ footer, header, hgroup, menu, nav, section {
     /*padding-left:630px;*/
     height:230px;
     width:100px;
-     z-index:3;
+    z-index:3;
 
 }
 .block4_line{
@@ -254,23 +277,23 @@ footer, header, hgroup, menu, nav, section {
 
     font-size:13px;
     height:62px;
-     z-index:3;
+    z-index:3;
 }
 .block5_container{
     position:relative;
     display:inline-block;
-    
+
     /*top:-1112px;*/
     padding-left:20px;
 
     height:230px;
     width:50px;
-     z-index:3;
+    z-index:3;
 }
 .pic1{
     display:block;
     height:60px;
-     z-index:3;
+    z-index:3;
 }
 .block6_container{
     position:relative;
@@ -279,7 +302,7 @@ footer, header, hgroup, menu, nav, section {
     /*padding-left:790px;*/
     height:230px;
     width:100px;
-     z-index:3;
+    z-index:3;
 }
 .block6_line{
     text-decoration:none;
@@ -289,7 +312,7 @@ footer, header, hgroup, menu, nav, section {
 
     font-size:13px;
     height:62px;
-     z-index:3;
+    z-index:3;
 }
 
 
@@ -310,7 +333,7 @@ footer, header, hgroup, menu, nav, section {
     font-size:50px;
     width:600px;
     z-index:1;
-        
+
 
 }
 .name_line2{
@@ -606,7 +629,7 @@ footer, header, hgroup, menu, nav, section {
 }
 .options_line1{
 
-     height:40px;
+    height:40px;
     background:#efedba;
 
 }
@@ -873,7 +896,7 @@ form input[type=text]{
 
     height:2px;
     margin-top:-20px;
-    
+
 }
 .container_lines{
     position:relative;

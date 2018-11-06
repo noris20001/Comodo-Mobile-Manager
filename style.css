@@ -146,19 +146,21 @@ footer, header, hgroup, menu, nav, section {
     color:white;
     font-size:18px;
     display:inline-block;
-    padding-left:120px;
+    padding-left:50px;
 }
 .menu_line3{
     /*font-family:Signika-Light, sans-serif;*/
     color:white;
     font-size:18px;
     display:inline-block;
-    padding-left:200px;
+    padding-left:170px;
 }
 .block1_container{
     /*overflow:hidden;*/
-    height:180px;
-    width:250px;
+    position:relative;
+    display:inline-block;
+    height:230px;
+    width:230px;
      z-index:3;
 }
 .block1_main{
@@ -179,8 +181,9 @@ footer, header, hgroup, menu, nav, section {
 }
 .menu_whiteline1{
     position:relative;
-    margin-left:300px;
-    top:-155px;
+    margin-left:230px;
+    /*float:right;*/
+    top:-200px;
     background:#e8e8e8;
     width:2px;
     height:200px;
@@ -188,18 +191,19 @@ footer, header, hgroup, menu, nav, section {
 }
 .menu_whiteline2{
     position:relative;
-    margin-left:570px;
-    top:-535px;
+    margin-left:230px;
+    top:-200px;
     background:#e8e8e8;
     width:2px;
     height:200px; 
 }
 .block2_container{
     position:relative;
-    top:-380px;
-    padding-left:325px;
-    height:180px;
-    width:250px;
+    display:inline-block;
+    /*top:-380px;*/
+    /*padding-left:25px;*/
+    height:230px;
+    width:230px;
      z-index:3;
 }
 .block2_main{
@@ -218,11 +222,13 @@ footer, header, hgroup, menu, nav, section {
 }
 .block3_container{
     position:relative;
-    top:-750px;
-    padding-left:590px;
+    display:inline-block;
+    
+    /*top:-750px;*/
+    padding-left:20px;
 
-    height:180px;
-    width:250px; 
+    height:230px;
+    width:40px; 
      z-index:3;
 }
 .pic{
@@ -232,10 +238,11 @@ footer, header, hgroup, menu, nav, section {
 }
 .block4_container{
     position:relative;
-    top:-945px;
-    padding-left:630px;
-    height:180px;
-    width:250px;
+    display:inline-block;
+    top:-8px;
+    /*padding-left:630px;*/
+    height:230px;
+    width:100px;
      z-index:3;
 
 }
@@ -251,11 +258,13 @@ footer, header, hgroup, menu, nav, section {
 }
 .block5_container{
     position:relative;
-    top:-1112px;
-    padding-left:750px;
+    display:inline-block;
+    
+    /*top:-1112px;*/
+    padding-left:20px;
 
-    height:180px;
-    width:250px;
+    height:230px;
+    width:50px;
      z-index:3;
 }
 .pic1{
@@ -265,10 +274,11 @@ footer, header, hgroup, menu, nav, section {
 }
 .block6_container{
     position:relative;
-    top:-1305px;
-    padding-left:790px;
-    height:180px;
-    width:250px;
+    display:inline-block;
+    top:-5px;
+    /*padding-left:790px;*/
+    height:230px;
+    width:100px;
      z-index:3;
 }
 .block6_line{

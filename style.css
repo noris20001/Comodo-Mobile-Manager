@@ -137,31 +137,35 @@ footer, header, hgroup, menu, nav, section {
     /*font-family:Signika-Light, sans-serif;*/
     color:white;
     font-size:18px;
-    display:inline-block;
+    display:block;
     padding-left:25px;
+    background:#00BFFF;
 
 }
 .menu_line2{
     /*font-family:Signika-Light, sans-serif;*/
     color:white;
     font-size:18px;
-    display:inline-block;
-    padding-left:50px;
+    display:block;
+    padding-left:25px;
+     background:#00BFFF;
 }
 .menu_line3{
     /*font-family:Signika-Light, sans-serif;*/
     color:white;
     font-size:18px;
-    display:inline-block;
-    padding-left:170px;
+    display:block;
+    padding-left:5px;
+     background:#00BFFF;
 }
 .block1_container{
     /*overflow:hidden;*/
     position:relative;
     display:inline-block;
-    height:230px;
+    height:2700px;
     width:230px;
     z-index:3;
+    vertical-align:top;
 }
 .block1_main{
     /*white-space:nowrap;*/
@@ -202,9 +206,10 @@ footer, header, hgroup, menu, nav, section {
     display:inline-block;
     /*top:-380px;*/
     /*padding-left:25px;*/
-    height:230px;
+    height:270px;
     width:230px;
     z-index:3;
+    vertical-align:top;
 }
 .block2_main{
     z-index:3;
@@ -226,14 +231,14 @@ footer, header, hgroup, menu, nav, section {
 
     /*top:-750px;*/
     padding-left:20px;
-
-    height:210px;
+     vertical-align:top;
+    height:270px;
     width:150px; 
     z-index:3;
 }
 .pic{
-    /*position:relative;*/        
-    display:block;
+    position:relative;        
+    display:inline-block;
     height:60px;
     /*height:60px;*/
     z-index:3;

@@ -1,4 +1,4 @@
-
+   /*Media styles for drop down menu*/
 #menu_button{
     display:none;
     cursor: pointer;
@@ -16,7 +16,7 @@
     /*margin-right:5px;*/
 
 }
-@media screen and (max-width:1300px){
+@media screen and (max-width:1350px){
     .hide_solutions{
         display:none;
     }
@@ -25,8 +25,84 @@
     }
     .menutop__item{
         display:none;
+        
     }
+    .menu_solutions{
+        
+         width:320px;
+         height:850px;
+         left:-200px;
+         top:45px;
+         z-index:3;
+        }
+        .menu_whiteline1{
+            display:none;
+        }
+        .menu_whiteline2{
+            display:none;
+            
+        }
+        .block1_container{
+            width:320px;
+        }
+        .menu_line1{
+            text-align:center;
+            padding-left:10px;
+            padding-right:10px;
+        }
+        .block1_line{
+            text-align:center;
+            padding-left:10px;
+            padding-right:10px;
+        }
+        .block2_container{
+            display:block;
+            width:320px;
+            top:-2400px;
+        }
+        .menu_line2{
+            text-align:center;
+            padding-left:10px;
+            padding-right:10px;
+        }
+        .block2_line{
+            text-align:center;
+            padding-left:10px;
+            padding-right:10px;
+        }
+        .block3_container{
+            display:block;
+            width:150px;
+            top:-2400px;
+            padding-left:0px;
+        }
+        .pic{
+            /*padding-left:5px;*/
+        }
+        .block4_container{
+            display:inline-blcok;
+            width:170px;
+            padding-left:0px;
+            float:right;
+            top:-2670px;
+            
+        }
+        .menu_line3{
+/*            text-align:center;
+            padding-left:10px;
+            padding-right:10px;*/
+        }
+        .header_background{
+            display:none;
+        }
+        .menu_line4{
+            top:0;
+        }
 }
+
+
+
+/*Media styles for Name*/
 @media screen and (max-width:490px){
     .name_line1{
         font-size:40px;
@@ -46,6 +122,14 @@
     #how2{
         margin-left:10px;
 
+    }
+}
+@media screen and (max-width:1000px){
+    .how_block{
+        padding-left:0px;
+    }
+    .text_container{
+        padding-left:0px;
     }
 }
 @media screen and (max-width:700px){
@@ -110,8 +194,11 @@
             top:-440px;
         }*/
 }
+
+/*Media styles for Boxes(and License options buttons) */
 @media screen and (max-width:1280px){
     .boxes{
+        
         height:1170px;
         margin-left:auto;
         margin-right:auto;
@@ -175,6 +262,41 @@
         height:3590px;
     }
 
+}
+
+
+/*Media styles for License options*/
+@media screen and (max-width:1200px){
+    .options_basic{
+        padding-left:675px;
+    }
+    .options_premium{
+       padding-left:945px; 
+    }
+    .greendot1{
+        margin-left:665px;
+    }
+    .greendot2{
+        margin-left:955px;
+    }
+    .greendot3{
+         margin-left:955px;
+    }
+    .greendot4{
+         margin-left:955px;
+    }
+    .greendot_month{
+        margin-left:665px;
+    }
+    .trail_month{
+        padding-left:620px;
+    }
+    .emptydot{
+        margin-left:665px;
+    }
+    .emptydot2{
+        margin-left:665px;
+    }
 }
 @media screen and (max-width:550px){
     .options_middle{
@@ -442,6 +564,11 @@
         top:-41px;
     }
 }
+
+
+
+
+/*Media styles for footer*/
 @media screen and (max-width:1280px){
     .footer{
 
@@ -542,7 +669,7 @@
     .face{
         top:-18px;
     }
-    /*дописать код сюда для нижней части футера*/
+   
 }
 @media screen and (max-width:601px){
     .signup{
@@ -561,7 +688,7 @@
         font-size:13px;
         top:-21px;
     }
-    /*дописать код сюда для нижней части футера*/
+   
 }
 @media screen and (max-width:390px){
     .contact{

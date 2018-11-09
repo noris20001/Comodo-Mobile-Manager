@@ -117,8 +117,8 @@ footer, header, hgroup, menu, nav, section {
     /*margin:10px;*/
     /*top:10px;*/
 
-    width:938px;
-    height:300px;
+    width:855px;
+    height:280px;
     background:#f9f9f9;
 }
 .header_container{
@@ -140,6 +140,7 @@ footer, header, hgroup, menu, nav, section {
     display:block;
     padding-left:25px;
     background:#00BFFF;
+    z-index:2;
 
 }
 .menu_line2{
@@ -149,6 +150,7 @@ footer, header, hgroup, menu, nav, section {
     display:block;
     padding-left:25px;
      background:#00BFFF;
+     z-index:2;
 }
 .menu_line3{
     /*font-family:Signika-Light, sans-serif;*/
@@ -157,6 +159,26 @@ footer, header, hgroup, menu, nav, section {
     display:block;
     padding-left:5px;
      background:#00BFFF;
+     z-index:2;
+}
+.menu_line4{
+    position:relative;
+    color:white;
+    font-size:0px;
+    display:block;
+    padding-left:5px;
+     background:#00BFFF;
+     z-index:2;
+     /*top:-4px;*/
+}
+.header_background{
+    position:relative;
+    background:#00BFFF;
+    width:855px;
+    z-index:1;
+    height:50px;
+    top:-2700px;
+    
 }
 .block1_container{
     /*overflow:hidden;*/
@@ -183,6 +205,13 @@ footer, header, hgroup, menu, nav, section {
     z-index:3;
     position:relative;
 }
+.solutions_line_container{
+    float:right;
+    width:230px;
+    padding-top:10px;
+    padding-bottom:10px;
+    
+}
 .menu_whiteline1{
     position:relative;
     margin-left:230px;
@@ -191,6 +220,7 @@ footer, header, hgroup, menu, nav, section {
     background:#e8e8e8;
     width:2px;
     height:200px;
+    /*float:right;*/
 
 }
 .menu_whiteline2{
@@ -267,16 +297,18 @@ footer, header, hgroup, menu, nav, section {
 .block4_container{
     position:relative;
     display:inline-block;
-    top:-8px;
+    padding-left:20px;
+    vertical-align:top; 
     /*padding-left:630px;*/
-    height:230px;
-    width:100px;
+    height:270px;
+    width:170px;
     z-index:3;
 
 }
 .block4_line{
     text-decoration:none;
     display:block;
+    visibility: hidden;
     /*font-family:Signika-Light, sans-serif;*/
     color:#00BFFF;
 
@@ -336,7 +368,7 @@ footer, header, hgroup, menu, nav, section {
     padding-left:70px;
     padding-top:4%;
     font-size:50px;
-    width:600px;
+    /*width:600px;*/
     z-index:1;
 
 
@@ -345,7 +377,7 @@ footer, header, hgroup, menu, nav, section {
     color:gray;
     /*font-family:Signika-Light, sans-serif;*/
     padding-left:75px;
-    width:600px;
+    /*width:600px;*/
     z-index:1;
 
 }
@@ -466,12 +498,14 @@ footer, header, hgroup, menu, nav, section {
     padding-top:30px;
     display:inline-block;
     font-size:20px;
+     padding-left:70px;
     /*float: left;*/
     /*padding: 20px 120px;*/
     /*width:310px;*/
 }
 .text_container{
     width:230px;
+  padding-left:70px;  
 }
 .how_text{
     color:white;
@@ -481,11 +515,12 @@ footer, header, hgroup, menu, nav, section {
     display:inline-block;
     /*max-width:1200px;*/
     /*padding-top:6%;*/
-    font-size:13px;
+    font-size:11px;
     text-align:left;
     font-weight:500;
     line-height:20px;
     /*width:250px;*/
+    font-family: Arial;
 }
 .how_block__tittle{
     min-height:60px;
@@ -551,7 +586,7 @@ footer, header, hgroup, menu, nav, section {
     padding-left:50px;
 }
 .boxes{               
-
+    max-width:1280px;
     height:900px;
     background:#14afe2;
 
@@ -643,7 +678,7 @@ footer, header, hgroup, menu, nav, section {
     color:#696969;
     font-size:20px;
     font-weight:bold;
-    padding-left:64%;
+    padding-left:820px;
     padding-top:1%;
 }
 .options_premium{
@@ -652,7 +687,7 @@ footer, header, hgroup, menu, nav, section {
     color:#00BFFF;
     font-size:20px;
     font-weight:bold;
-    padding-left:84%;
+    padding-left:1110px;
     top:-57%;
 }
 .options_line2{
@@ -678,7 +713,7 @@ footer, header, hgroup, menu, nav, section {
     height:15px;
     background:#7CFC00;
     border-radius:5px;
-    margin-left:66%;
+    margin-left:810px;
     top:-17px;
 }
 .greendot2{
@@ -687,7 +722,7 @@ footer, header, hgroup, menu, nav, section {
     height:15px;
     background:#7CFC00;
     border-radius:5px;
-    margin-left:89%;
+    margin-left:1110px;
     top:-32.2px;;
 }
 .greendot_month{
@@ -696,7 +731,7 @@ footer, header, hgroup, menu, nav, section {
     height:15px;
     background:#7CFC00;
     border-radius:5px;
-    margin-left:66%;
+    margin-left:810px;
     top:-34px;
 }
 .greendot3{
@@ -705,7 +740,7 @@ footer, header, hgroup, menu, nav, section {
     height:15px;
     background:#7CFC00;
     border-radius:5px;
-    margin-left:89%;
+    margin-left:1110px;
     top:-58px;;
 }
 .greendot4{
@@ -714,7 +749,7 @@ footer, header, hgroup, menu, nav, section {
     height:15px;
     background:#7CFC00;
     border-radius:5px;
-    margin-left:89%;
+    margin-left:1110px;
     top:-46px;;
 }
 .emptydot{
@@ -724,7 +759,7 @@ footer, header, hgroup, menu, nav, section {
     opacity: 0.6;	
     width: 13px;
     height: 13px;
-    margin-left:66%;
+    margin-left:810px;
     top:-17px;	
 }
 .emptydot2{
@@ -734,7 +769,7 @@ footer, header, hgroup, menu, nav, section {
     opacity: 0.6;	
     width: 13px;
     height: 13px;
-    margin-left:66%;
+    margin-left:810px;
     top:-30px;
 }
 .options_text1big{
@@ -753,14 +788,14 @@ footer, header, hgroup, menu, nav, section {
     position:relative;
     /*font-family:Signika-Light, sans-serif;*/
     color:#696969;
-    padding-left:61%;
+    padding-left:765px;
     top:-26px;
 }
 #free_trail{
-    width:180px;
+    width:200px;
     height:50px;
     background:#00BFFF;
-    margin-left:770px;
+    margin-left:745px;
     margin-top:3%;
     color:white;
     /*font-family:Signika-Light, sans-serif;*/
@@ -773,11 +808,11 @@ footer, header, hgroup, menu, nav, section {
     background:#00CED1;
 }
 #get_now{
-    width:180px;
+    width:200px;
     height:50px;
     background:darkorange;
-    margin-left:110px;
-    margin-top:3%;
+    margin-left:100px;
+    margin-top:15px;
     color:white;
     /*font-family:Signika-Light, sans-serif;*/
     border-width:0px;
@@ -793,7 +828,7 @@ footer, header, hgroup, menu, nav, section {
     color:#696969;
     font-size:18px;
     padding-top:30px;
-    padding-left:700px;
+    padding-left:770px;
     font-style:italic;
 }
 .footer{
@@ -1116,7 +1151,7 @@ form input[type=text]{
     top: -545px;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 405px;
     background-color: #14afe2;
     z-index: 1;
     opacity: 0.9;
